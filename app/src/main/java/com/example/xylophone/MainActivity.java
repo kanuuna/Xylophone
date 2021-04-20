@@ -40,37 +40,10 @@ public class MainActivity extends AppCompatActivity {
         mGSoundId = mSoundPool.load(getApplicationContext() , R.raw.note5_g , 1);
         mASoundId = mSoundPool.load(getApplicationContext() , R.raw.note6_a, 1);
         mBSoundId = mSoundPool.load(getApplicationContext() , R.raw.note7_b , 1);
-
-        /*
-        //Variable assignment
-        Button button1 = (Button) findViewById(R.id.button7);
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
-        Button button2 = (Button) findViewById(R.id.button6);
-        Button button3 = (Button) findViewById(R.id.button5);
-        Button button4 = (Button) findViewById(R.id.button4);
-        Button button5 = (Button) findViewById(R.id.button3);
-        Button button6 = (Button) findViewById(R.id.button2);
-        Button button7 = (Button) findViewById(R.id.button);
-
-        final int[] soundArray = {
-                
-        */
-
-
-
-
-
-
-
-
-
     }
 
+    
+    
     public void playC(View v) {
         //This code is executed when the C-button is pressed
         Log.d("Xylophone" , "Red button pressed");
